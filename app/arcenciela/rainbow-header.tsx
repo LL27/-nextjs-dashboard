@@ -1,7 +1,7 @@
 import styles from '@/app/ui/home.module.css';
 
 
-export default function RainbowHeader({ text })  {
+export default function RainbowHeader({ text }: { text: string })  {
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'pink', 'purple', 'brown'];
     
 
